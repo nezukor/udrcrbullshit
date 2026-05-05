@@ -9,6 +9,7 @@ local keys = cfg.keys
 local premium = cfg.premium
 local verified = cfg.verified
 local unlockall = cfg.unlockall
+local join = cfg.join
 local platform  = tostring(cfg.platform):upper()
 
 -- waits for friend to be in the game --
@@ -182,5 +183,4 @@ end)
 if unlockall then
     task.wait(3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/WEFGQERQEGWGE/a/refs/heads/main/yashitcrack.lua"))()
-
 end
